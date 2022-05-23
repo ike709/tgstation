@@ -55,7 +55,7 @@
 	for(var/obj/item/bodypart/limb as anything in target.bodyparts)
 		if(limb.body_zone == BODY_ZONE_HEAD || limb.body_zone == BODY_ZONE_CHEST)
 			limb.is_dimorphic = TRUE
-		limb.skin_tone ||= skintone
+		if(!limb.skin_tone) limb.skin_tone = skintone
 		limb.limb_id = SPECIES_HUMAN
 		limb.should_draw_greyscale = TRUE
 		limb.name = "human [limb.plaintext_zone]"

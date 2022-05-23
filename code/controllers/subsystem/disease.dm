@@ -6,11 +6,13 @@ SUBSYSTEM_DEF(disease)
 	var/list/diseases
 	var/list/archive_diseases = list()
 
-	var/static/list/list_symptoms = subtypesof(/datum/symptom)
+	var/static/list/list_symptoms
 
 /datum/controller/subsystem/disease/PreInit()
 	if(!diseases)
 		diseases = subtypesof(/datum/disease)
+	if(!list_symptoms)
+		list_symptoms = subtypesof(/datum/symptom)
 
 /datum/controller/subsystem/disease/Initialize(timeofday)
 	var/list/all_common_diseases = diseases - typesof(/datum/disease/advance)

@@ -48,7 +48,7 @@
 		RANDOM_NUMBER, RANDOM_GRAFFITI, RANDOM_LETTER, RANDOM_SYMBOL, RANDOM_PUNCTUATION, RANDOM_DRAWING)
 	var/static/list/graffiti_large_h = list("yiffhell", "secborg", "paint")
 
-	var/static/list/all_drawables = graffiti + symbols + drawings + oriented + runes + graffiti_large_h
+	var/static/list/all_drawables
 
 	var/paint_mode = PAINT_NORMAL
 
@@ -83,6 +83,8 @@
 
 /obj/item/toy/crayon/Initialize(mapload)
 	. = ..()
+	if(!all_drawables)
+		all_drawables = graffiti + symbols + drawings + oriented + runes + graffiti_large_h
 
 	dye_color = crayon_color
 

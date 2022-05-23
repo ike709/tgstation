@@ -74,16 +74,8 @@
 		JOB_LAWYER = "Esq.",
 	)
 
-	var/static/list/prefixes = list(
-		command_titles,
-		security_titles,
-		engineering_titles,
-	)
-	var/static/list/suffixes = list(
-		research_titles,
-		medical_titles,
-		legal_titles,
-	)
+	var/static/list/prefixes
+	var/static/list/suffixes
 
 	var/ascended = FALSE // if we have all the top titles, grant achievements to living mobs that gaze upon our cleanbot god
 
@@ -141,6 +133,19 @@
 
 /mob/living/simple_animal/bot/cleanbot/Initialize(mapload)
 	. = ..()
+	if(!prefixes)
+		prefixes = list(
+		command_titles,
+		security_titles,
+		engineering_titles,
+		)
+		
+		suffixes = list(
+		research_titles,
+		medical_titles,
+		legal_titles,
+		)
+
 
 	chosen_name = name
 	get_targets()

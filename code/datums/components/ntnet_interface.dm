@@ -26,7 +26,7 @@
 		return NETWORK_ERROR_NOT_ON_NETWORK
 	data.sender_id = NIC.hardware_id
 	data.network_id = NIC.network.network_id
-	data.receiver_id ||= data.network_id
+	if(!data.receiver_id) data.receiver_id = data.network_id
 	return SSnetworks.transmit(data)
 
 /*

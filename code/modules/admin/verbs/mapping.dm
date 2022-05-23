@@ -35,9 +35,9 @@ GLOBAL_LIST_INIT(admin_verbs_debug_mapping, list(
 	/client/proc/cmd_admin_grantfullaccess,
 	/client/proc/cmd_admin_areatest_all,
 	/client/proc/cmd_admin_areatest_station,
-	#ifdef TESTING
+	/*#ifdef TESTING
 	/client/proc/see_dirty_varedits,
-	#endif
+	#endif*/
 	/client/proc/cmd_admin_rejuvenate,
 	/datum/admins/proc/show_traitor_panel,
 	/client/proc/disable_communication,

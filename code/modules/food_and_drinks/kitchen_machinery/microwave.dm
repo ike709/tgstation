@@ -26,11 +26,14 @@
 	var/static/radial_use = image(icon = 'icons/hud/radial.dmi', icon_state = "radial_use")
 
 	// we show the button even if the proc will not work
-	var/static/list/radial_options = list("eject" = radial_eject, "use" = radial_use)
-	var/static/list/ai_radial_options = list("eject" = radial_eject, "use" = radial_use, "examine" = radial_examine)
+	var/static/list/radial_options
+	var/static/list/ai_radial_options
 
 /obj/machinery/microwave/Initialize(mapload)
 	. = ..()
+	if(!radial_options)
+		radial_options = list("eject" = radial_eject, "use" = radial_use)
+		ai_radial_options = list("eject" = radial_eject, "use" = radial_use, "examine" = radial_examine)
 	wires = new /datum/wires/microwave(src)
 	create_reagents(100)
 	soundloop = new(src, FALSE)

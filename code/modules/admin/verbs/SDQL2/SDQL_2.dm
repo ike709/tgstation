@@ -1148,8 +1148,8 @@ GLOBAL_DATUM_INIT(sdql2_vv_statobj, /obj/effect/statclick/sdql2_vv_all, new(null
 				return null
 
 			word = "'"
-
-			for(i += length(char), i <= len, i += length(char))
+			i += length(char)
+			for(i , i <= len, i += length(char))
 				char = query_text[i]
 
 				if(char == "'")
@@ -1176,8 +1176,8 @@ GLOBAL_DATUM_INIT(sdql2_vv_statobj, /obj/effect/statclick/sdql2_vv_all, new(null
 				return null
 
 			word = "\""
-
-			for(i += length(char), i <= len, i += length(char))
+			i  += length(char)
+			for(i, i <= len, i += length(char))
 				char = query_text[i]
 
 				if(char == "\"")

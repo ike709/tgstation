@@ -668,7 +668,7 @@
 
 		draw_color = mutation_color
 		if(should_draw_greyscale) //Should the limb be colored?
-			draw_color ||= (species_color) || (skin_tone && skintone2hex(skin_tone))
+			if(!draw_color) draw_color = (species_color) || (skin_tone && skintone2hex(skin_tone))
 
 		dmg_overlay_type = owner_species.damage_overlay_type
 
@@ -773,7 +773,7 @@
 
 	draw_color = mutation_color
 	if(should_draw_greyscale) //Should the limb be colored outside of a forced color?
-		draw_color ||= (species_color) || (skin_tone && skintone2hex(skin_tone))
+		if(!draw_color) draw_color = (species_color) || (skin_tone && skintone2hex(skin_tone))
 
 	if(draw_color)
 		limb.color = "[draw_color]"

@@ -147,7 +147,7 @@
 		/// If we are doing a hard jump to a new network, log it
 		log_telecomms("The device {[interface.hardware_id]} is jumping networks from '[interface.network.network_id]' to '[network_id]'")
 		interface.network.remove_interface(interface, TRUE)
-	interface.network ||= src
+	if(!interface.network) interface.network = src
 	interface.alias[network_id] = src // add to the alias just to make removing easier.
 	linked_devices[interface.hardware_id] = interface
 	root_devices[interface.hardware_id] = interface

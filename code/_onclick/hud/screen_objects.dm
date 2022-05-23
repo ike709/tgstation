@@ -190,7 +190,7 @@
 
 /atom/movable/screen/inventory/hand
 	var/mutable_appearance/handcuff_overlay
-	var/static/mutable_appearance/blocked_overlay = mutable_appearance('icons/hud/screen_gen.dmi', "blocked")
+	var/static/mutable_appearance/blocked_overlay// = mutable_appearance('icons/hud/screen_gen.dmi', "blocked")
 	var/held_index = 0
 
 /atom/movable/screen/inventory/hand/update_overlays()

@@ -125,7 +125,7 @@
 	mob_mind.add_antag_datum(antag_datum_to_give, antag_team)
 
 /datum/team/battlecruiser
-	name = "Battlecruiser Crew"
+	name = "\improper Battlecruiser Crew"
 	member_name = "crewmember"
 	/// The central objective of this battlecruiser
 	var/core_objective = /datum/objective/nuclear
@@ -186,8 +186,9 @@
 
 /datum/outfit/syndicate_empty/battlecruiser
 	name = "Syndicate Battlecruiser Ship Operative"
-	l_pocket = /obj/item/gun/ballistic/automatic/pistol
+	l_pocket = /obj/item/gun/ballistic/automatic/pistol/clandestine
 	r_pocket = /obj/item/knife/combat/survival
+	box = /obj/item/storage/box/survival/syndie
 	belt = /obj/item/storage/belt/military/assault
 
 /obj/effect/mob_spawn/ghost_role/human/syndicate/battlecruiser/assault
@@ -206,8 +207,8 @@
 	r_pocket = /obj/item/modular_computer/tablet/nukeops
 	belt = /obj/item/storage/belt/military
 	suit = /obj/item/clothing/suit/armor/vest
-	suit_store = /obj/item/gun/ballistic/automatic/pistol
-	back = /obj/item/storage/backpack/security
+	suit_store = /obj/item/gun/ballistic/automatic/pistol/clandestine
+	back = /obj/item/storage/backpack
 	mask = /obj/item/clothing/mask/gas/syndicate
 
 /obj/effect/mob_spawn/ghost_role/human/syndicate/battlecruiser/captain

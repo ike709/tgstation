@@ -1,3 +1,13 @@
+/proc/mutable_appearance(icon, icon_state = "", layer = FLOAT_LAYER, plane = FLOAT_PLANE, alpha = 255, appearance_flags = NONE)
+	var/mutable_appearance/MA = new()
+	MA.icon = icon
+	MA.icon_state = icon_state
+	MA.layer = layer
+	MA.plane = plane
+	MA.alpha = alpha
+	MA.appearance_flags |= appearance_flags
+	return MA
+
 /*
 	Screen objects
 	Todo: improve/re-implement

@@ -120,6 +120,11 @@ GLOBAL_PROTECT(protected_ranks)
 		sql_ranks += list(list("rank" = R.name, "flags" = R.include_rights, "exclude_flags" = R.exclude_rights, "can_edit_flags" = R.can_edit_rights))
 	SSdbcore.MassInsert(format_table_name("admin_ranks"), sql_ranks, duplicate_key = TRUE)
 
+/proc/RunTest()
+	var/regex/R = regex(@"\l")
+	var/meep = R.Find("abc123def")
+	world.log << meep
+
 //load our rank - > rights associations
 /proc/load_admin_ranks(dbfail, no_update)
 	if(IsAdminAdvancedProcCall())

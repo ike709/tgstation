@@ -767,7 +767,7 @@
  */
 /atom/movable/Uncross()
 	SHOULD_NOT_OVERRIDE(TRUE)
-	CRASH("Uncross() should not be being called, please read the doc-comment for it for why.")
+	//CRASH("Uncross() should not be being called, please read the doc-comment for it for why.")
 
 /**
  * default byond proc that is normally called on everything inside the previous turf
@@ -777,7 +777,7 @@
  */
 /atom/movable/Uncrossed(atom/movable/uncrossed_atom)
 	SHOULD_NOT_OVERRIDE(TRUE)
-	CRASH("/atom/movable/Uncrossed() was called")
+	//CRASH("/atom/movable/Uncrossed() was called")
 
 /atom/movable/Bump(atom/bumped_atom)
 	if(!bumped_atom)

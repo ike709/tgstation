@@ -1,0 +1,1754 @@
+World loaded at 13:47:45!
+Running /tg/ revision: 2022-09-24
+origin/master: ef0c9596bde7d059f1f5a4da488d1cd5ed12ceff
+HEAD: b469d0d1b56d4c570787c1f875068c10c1dbeec2
+Loading config file config.txt...
+Loading config file game_options.txt...
+Loading config file dbconfig.txt...
+Loading config file comms.txt...
+Loading config file resources.txt...
+Loading config file interviews.txt...
+Loading config file lua.txt...
+Loading config file maps.txt...
+Loading config file word_filter.toml...
+The word filter is not configured correctly! 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Admin rank names were invalid: 
+Initialized Title Screen subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Input subsystem within 0 seconds!
+## DEBUG: Sun Sep 25 13:47:47 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 1
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 
+	 subsystems = /list
+	 init_timeofday = 748672
+	 init_time = 8.5
+	 tickdrift = 0
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = 
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:47:57 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 99
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 110
+	 subsystems = /list
+	 init_timeofday = 748682
+	 init_time = 19
+	 tickdrift = 0.09111514
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = Stat Panels(/datum/controller/subsystem/statpanels)
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:48:07 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 93
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 210.5
+	 subsystems = /list
+	 init_timeofday = 748784
+	 init_time = 120.5
+	 tickdrift = 0
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = Input(/datum/controller/subsystem/verb_manager/input)
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:48:17 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 97
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 312
+	 subsystems = /list
+	 init_timeofday = 748885
+	 init_time = 222
+	 tickdrift = 0.03806454
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = Input(/datum/controller/subsystem/verb_manager/input)
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+The Input subsystem was the last to fire for 2 controller restarts. It will be recovered now and disabled if it happens again.
+## DEBUG: Sun Sep 25 13:48:27 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 97
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 413
+	 subsystems = /list
+	 init_timeofday = 748986
+	 init_time = 323
+	 tickdrift = 0.0052461284
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = Input(/datum/controller/subsystem/verb_manager/input)
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+The Input subsystem seems to be destabilizing the MC and will be put offline.
+## DEBUG: Sun Sep 25 13:48:37 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 102
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 515
+	 subsystems = /list
+	 init_timeofday = 749088
+	 init_time = 424.5
+	 tickdrift = 0
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = Stat Panels(/datum/controller/subsystem/statpanels)
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+The Stat Panels subsystem was the last to fire for 2 controller restarts. It will be recovered now and disabled if it happens again.
+## DEBUG: Sun Sep 25 13:48:48 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 95
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 616.5
+	 subsystems = /list
+	 init_timeofday = 749189
+	 init_time = 526
+	 tickdrift = 0.9814414
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = Server Tasks(/datum/controller/subsystem/server_maint)
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:48:58 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 95
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 718
+	 subsystems = /list
+	 init_timeofday = 749291
+	 init_time = 627.5
+	 tickdrift = 0
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = Server Tasks(/datum/controller/subsystem/server_maint)
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+The Server Tasks subsystem was the last to fire for 2 controller restarts. It will be recovered now and disabled if it happens again.
+[ERRO] world.log: Exception Occured: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+=DM StackTrace=
+   /datum/controller/subsystem/server_maint/fire(...)
+   /datum/controller/subsystem/ignite(...)
+   /datum/controller/master/RunQueue(...)
+   /datum/controller/master/Loop(...)
+   /datum/controller/master/StartProcessing(...)
+
+=C# StackTrace=
+System.Exception: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+   at OpenDreamRuntime.Procs.DMProcState.GetReferenceValue(DMReference reference, Boolean peek) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 423
+   at OpenDreamRuntime.Procs.DMOpcodeHandlers.PushReferenceValue(DMProcState state) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMOpcodeHandlers.cs:line 17
+   at OpenDreamRuntime.Procs.DMProcState.InternalResume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 204
+   at OpenDreamRuntime.ProcState.Resume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\DreamThread.cs:line 100
+
+
+[ERRO] world.log: Exception Occured: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+=DM StackTrace=
+   /datum/controller/subsystem/server_maint/fire(...)
+   /datum/controller/subsystem/ignite(...)
+   /datum/controller/master/RunQueue(...)
+   /datum/controller/master/Loop(...)
+   /datum/controller/master/StartProcessing(...)
+
+=C# StackTrace=
+System.Exception: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+   at OpenDreamRuntime.Procs.DMProcState.GetReferenceValue(DMReference reference, Boolean peek) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 423
+   at OpenDreamRuntime.Procs.DMOpcodeHandlers.PushReferenceValue(DMProcState state) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMOpcodeHandlers.cs:line 17
+   at OpenDreamRuntime.Procs.DMProcState.InternalResume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 204
+   at OpenDreamRuntime.ProcState.Resume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\DreamThread.cs:line 100
+
+
+[ERRO] world.log: Exception Occured: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+=DM StackTrace=
+   /datum/controller/subsystem/server_maint/fire(...)
+   /datum/controller/subsystem/ignite(...)
+   /datum/controller/master/RunQueue(...)
+   /datum/controller/master/Loop(...)
+   /datum/controller/master/StartProcessing(...)
+
+=C# StackTrace=
+System.Exception: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+   at OpenDreamRuntime.Procs.DMProcState.GetReferenceValue(DMReference reference, Boolean peek) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 423
+   at OpenDreamRuntime.Procs.DMOpcodeHandlers.PushReferenceValue(DMProcState state) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMOpcodeHandlers.cs:line 17
+   at OpenDreamRuntime.Procs.DMProcState.InternalResume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 204
+   at OpenDreamRuntime.ProcState.Resume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\DreamThread.cs:line 100
+
+
+[ERRO] world.log: Exception Occured: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+=DM StackTrace=
+   /datum/controller/subsystem/server_maint/fire(...)
+   /datum/controller/subsystem/ignite(...)
+   /datum/controller/master/RunQueue(...)
+   /datum/controller/master/Loop(...)
+   /datum/controller/master/StartProcessing(...)
+
+=C# StackTrace=
+System.Exception: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+   at OpenDreamRuntime.Procs.DMProcState.GetReferenceValue(DMReference reference, Boolean peek) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 423
+   at OpenDreamRuntime.Procs.DMOpcodeHandlers.PushReferenceValue(DMProcState state) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMOpcodeHandlers.cs:line 17
+   at OpenDreamRuntime.Procs.DMProcState.InternalResume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 204
+   at OpenDreamRuntime.ProcState.Resume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\DreamThread.cs:line 100
+
+
+[ERRO] world.log: Exception Occured: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+=DM StackTrace=
+   /datum/controller/subsystem/server_maint/fire(...)
+   /datum/controller/subsystem/ignite(...)
+   /datum/controller/master/RunQueue(...)
+   /datum/controller/master/Loop(...)
+   /datum/controller/master/StartProcessing(...)
+
+=C# StackTrace=
+System.Exception: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+   at OpenDreamRuntime.Procs.DMProcState.GetReferenceValue(DMReference reference, Boolean peek) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 423
+   at OpenDreamRuntime.Procs.DMOpcodeHandlers.PushReferenceValue(DMProcState state) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMOpcodeHandlers.cs:line 17
+   at OpenDreamRuntime.Procs.DMProcState.InternalResume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 204
+   at OpenDreamRuntime.ProcState.Resume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\DreamThread.cs:line 100
+
+
+[ERRO] world.log: Exception Occured: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+=DM StackTrace=
+   /datum/controller/subsystem/server_maint/fire(...)
+   /datum/controller/subsystem/ignite(...)
+   /datum/controller/master/RunQueue(...)
+   /datum/controller/master/Loop(...)
+   /datum/controller/master/StartProcessing(...)
+
+=C# StackTrace=
+System.Exception: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+   at OpenDreamRuntime.Procs.DMProcState.GetReferenceValue(DMReference reference, Boolean peek) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 423
+   at OpenDreamRuntime.Procs.DMOpcodeHandlers.PushReferenceValue(DMProcState state) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMOpcodeHandlers.cs:line 17
+   at OpenDreamRuntime.Procs.DMProcState.InternalResume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 204
+   at OpenDreamRuntime.ProcState.Resume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\DreamThread.cs:line 100
+
+
+[ERRO] world.log: Exception Occured: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+=DM StackTrace=
+   /datum/controller/subsystem/server_maint/fire(...)
+   /datum/controller/subsystem/ignite(...)
+   /datum/controller/master/RunQueue(...)
+   /datum/controller/master/Loop(...)
+   /datum/controller/master/StartProcessing(...)
+
+=C# StackTrace=
+System.Exception: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+   at OpenDreamRuntime.Procs.DMProcState.GetReferenceValue(DMReference reference, Boolean peek) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 423
+   at OpenDreamRuntime.Procs.DMOpcodeHandlers.PushReferenceValue(DMProcState state) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMOpcodeHandlers.cs:line 17
+   at OpenDreamRuntime.Procs.DMProcState.InternalResume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 204
+   at OpenDreamRuntime.ProcState.Resume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\DreamThread.cs:line 100
+
+
+[ERRO] world.log: Exception Occured: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+=DM StackTrace=
+   /datum/controller/subsystem/server_maint/fire(...)
+   /datum/controller/subsystem/ignite(...)
+   /datum/controller/master/RunQueue(...)
+   /datum/controller/master/Loop(...)
+   /datum/controller/master/StartProcessing(...)
+
+=C# StackTrace=
+System.Exception: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+   at OpenDreamRuntime.Procs.DMProcState.GetReferenceValue(DMReference reference, Boolean peek) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 423
+   at OpenDreamRuntime.Procs.DMOpcodeHandlers.PushReferenceValue(DMProcState state) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMOpcodeHandlers.cs:line 17
+   at OpenDreamRuntime.Procs.DMProcState.InternalResume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 204
+   at OpenDreamRuntime.ProcState.Resume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\DreamThread.cs:line 100
+
+
+[ERRO] world.log: Exception Occured: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+=DM StackTrace=
+   /datum/controller/subsystem/server_maint/fire(...)
+   /datum/controller/subsystem/ignite(...)
+   /datum/controller/master/RunQueue(...)
+   /datum/controller/master/Loop(...)
+   /datum/controller/master/StartProcessing(...)
+
+=C# StackTrace=
+System.Exception: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+   at OpenDreamRuntime.Procs.DMProcState.GetReferenceValue(DMReference reference, Boolean peek) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 423
+   at OpenDreamRuntime.Procs.DMOpcodeHandlers.PushReferenceValue(DMProcState state) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMOpcodeHandlers.cs:line 17
+   at OpenDreamRuntime.Procs.DMProcState.InternalResume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 204
+   at OpenDreamRuntime.ProcState.Resume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\DreamThread.cs:line 100
+
+
+[ERRO] world.log: Exception Occured: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+=DM StackTrace=
+   /datum/controller/subsystem/server_maint/fire(...)
+   /datum/controller/subsystem/ignite(...)
+   /datum/controller/master/RunQueue(...)
+   /datum/controller/master/Loop(...)
+   /datum/controller/master/StartProcessing(...)
+
+=C# StackTrace=
+System.Exception: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+   at OpenDreamRuntime.Procs.DMProcState.GetReferenceValue(DMReference reference, Boolean peek) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 423
+   at OpenDreamRuntime.Procs.DMOpcodeHandlers.PushReferenceValue(DMProcState state) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMOpcodeHandlers.cs:line 17
+   at OpenDreamRuntime.Procs.DMProcState.InternalResume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 204
+   at OpenDreamRuntime.ProcState.Resume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\DreamThread.cs:line 100
+
+
+[ERRO] world.log: Exception Occured: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+=DM StackTrace=
+   /datum/controller/subsystem/server_maint/fire(...)
+   /datum/controller/subsystem/ignite(...)
+   /datum/controller/master/RunQueue(...)
+   /datum/controller/master/Loop(...)
+   /datum/controller/master/StartProcessing(...)
+
+=C# StackTrace=
+System.Exception: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+   at OpenDreamRuntime.Procs.DMProcState.GetReferenceValue(DMReference reference, Boolean peek) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 423
+   at OpenDreamRuntime.Procs.DMOpcodeHandlers.PushReferenceValue(DMProcState state) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMOpcodeHandlers.cs:line 17
+   at OpenDreamRuntime.Procs.DMProcState.InternalResume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 204
+   at OpenDreamRuntime.ProcState.Resume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\DreamThread.cs:line 100
+
+
+[ERRO] world.log: Exception Occured: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+=DM StackTrace=
+   /datum/controller/subsystem/server_maint/fire(...)
+   /datum/controller/subsystem/ignite(...)
+   /datum/controller/master/RunQueue(...)
+   /datum/controller/master/Loop(...)
+   /datum/controller/master/StartProcessing(...)
+
+=C# StackTrace=
+System.Exception: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+   at OpenDreamRuntime.Procs.DMProcState.GetReferenceValue(DMReference reference, Boolean peek) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 423
+   at OpenDreamRuntime.Procs.DMOpcodeHandlers.PushReferenceValue(DMProcState state) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMOpcodeHandlers.cs:line 17
+   at OpenDreamRuntime.Procs.DMProcState.InternalResume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 204
+   at OpenDreamRuntime.ProcState.Resume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\DreamThread.cs:line 100
+
+
+[ERRO] world.log: Exception Occured: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+=DM StackTrace=
+   /datum/controller/subsystem/server_maint/fire(...)
+   /datum/controller/subsystem/ignite(...)
+   /datum/controller/master/RunQueue(...)
+   /datum/controller/master/Loop(...)
+   /datum/controller/master/StartProcessing(...)
+
+=C# StackTrace=
+System.Exception: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+   at OpenDreamRuntime.Procs.DMProcState.GetReferenceValue(DMReference reference, Boolean peek) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 423
+   at OpenDreamRuntime.Procs.DMOpcodeHandlers.PushReferenceValue(DMProcState state) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMOpcodeHandlers.cs:line 17
+   at OpenDreamRuntime.Procs.DMProcState.InternalResume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 204
+   at OpenDreamRuntime.ProcState.Resume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\DreamThread.cs:line 100
+
+
+[ERRO] world.log: Exception Occured: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+=DM StackTrace=
+   /datum/controller/subsystem/server_maint/fire(...)
+   /datum/controller/subsystem/ignite(...)
+   /datum/controller/master/RunQueue(...)
+   /datum/controller/master/Loop(...)
+   /datum/controller/master/StartProcessing(...)
+
+=C# StackTrace=
+System.Exception: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+   at OpenDreamRuntime.Procs.DMProcState.GetReferenceValue(DMReference reference, Boolean peek) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 423
+   at OpenDreamRuntime.Procs.DMOpcodeHandlers.PushReferenceValue(DMProcState state) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMOpcodeHandlers.cs:line 17
+   at OpenDreamRuntime.Procs.DMProcState.InternalResume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 204
+   at OpenDreamRuntime.ProcState.Resume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\DreamThread.cs:line 100
+
+
+[ERRO] world.log: Exception Occured: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+=DM StackTrace=
+   /datum/controller/subsystem/server_maint/fire(...)
+   /datum/controller/subsystem/ignite(...)
+   /datum/controller/master/RunQueue(...)
+   /datum/controller/master/Loop(...)
+   /datum/controller/master/StartProcessing(...)
+
+=C# StackTrace=
+System.Exception: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+   at OpenDreamRuntime.Procs.DMProcState.GetReferenceValue(DMReference reference, Boolean peek) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 423
+   at OpenDreamRuntime.Procs.DMOpcodeHandlers.PushReferenceValue(DMProcState state) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMOpcodeHandlers.cs:line 17
+   at OpenDreamRuntime.Procs.DMProcState.InternalResume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 204
+   at OpenDreamRuntime.ProcState.Resume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\DreamThread.cs:line 100
+
+
+[ERRO] world.log: Exception Occured: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+=DM StackTrace=
+   /datum/controller/subsystem/server_maint/fire(...)
+   /datum/controller/subsystem/ignite(...)
+   /datum/controller/master/RunQueue(...)
+   /datum/controller/master/Loop(...)
+   /datum/controller/master/StartProcessing(...)
+
+=C# StackTrace=
+System.Exception: Cannot get index DreamValue(Float, 1) of DreamValue(DreamObject, null)
+   at OpenDreamRuntime.Procs.DMProcState.GetReferenceValue(DMReference reference, Boolean peek) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 423
+   at OpenDreamRuntime.Procs.DMOpcodeHandlers.PushReferenceValue(DMProcState state) in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMOpcodeHandlers.cs:line 17
+   at OpenDreamRuntime.Procs.DMProcState.InternalResume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\Procs\DMProc.cs:line 204
+   at OpenDreamRuntime.ProcState.Resume() in C:\Users\Ike\Documents\GitHub\OpenDream\OpenDream\OpenDreamRuntime\DreamThread.cs:line 100
+
+
+## DEBUG: Sun Sep 25 13:49:08 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 98
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 820
+	 subsystems = /list
+	 init_timeofday = 749392
+	 init_time = 729
+	 tickdrift = 1.0367252E-05
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = Server Tasks(/datum/controller/subsystem/server_maint)
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+The Server Tasks subsystem seems to be destabilizing the MC and will be put offline.
+## DEBUG: Sun Sep 25 13:49:18 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 95
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 921
+	 subsystems = /list
+	 init_timeofday = 749494
+	 init_time = 830.5
+	 tickdrift = 0
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = Stat Panels(/datum/controller/subsystem/statpanels)
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+The Stat Panels subsystem seems to be destabilizing the MC and will be put offline.
+## DEBUG: Sun Sep 25 13:49:28 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 104
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 1022
+	 subsystems = /list
+	 init_timeofday = 749595
+	 init_time = 932
+	 tickdrift = 0.2565765
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = Garbage(/datum/controller/subsystem/garbage)
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:49:38 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 105
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 1123.5
+	 subsystems = /list
+	 init_timeofday = 749696
+	 init_time = 1033
+	 tickdrift = 0.6351452
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = Garbage(/datum/controller/subsystem/garbage)
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+The Garbage subsystem was the last to fire for 2 controller restarts. It will be recovered now and disabled if it happens again.
+## DEBUG: Sun Sep 25 13:49:48 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 105
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 1224.5
+	 subsystems = /list
+	 init_timeofday = 749798
+	 init_time = 1134.5
+	 tickdrift = 0
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = Garbage(/datum/controller/subsystem/garbage)
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+The Garbage subsystem seems to be destabilizing the MC and will be put offline.
+## DEBUG: Sun Sep 25 13:49:59 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 100
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 1326
+	 subsystems = /list
+	 init_timeofday = 749899
+	 init_time = 1235.5
+	 tickdrift = 0
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = Ping(/datum/controller/subsystem/ping)
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:50:09 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 95
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 1428
+	 subsystems = /list
+	 init_timeofday = 750000
+	 init_time = 1337
+	 tickdrift = 3.1707692E-09
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = Ping(/datum/controller/subsystem/ping)
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+The Ping subsystem was the last to fire for 2 controller restarts. It will be recovered now and disabled if it happens again.
+## DEBUG: Sun Sep 25 13:50:19 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 101
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 1529.5
+	 subsystems = /list
+	 init_timeofday = 750102
+	 init_time = 1438.5
+	 tickdrift = 0
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = Ping(/datum/controller/subsystem/ping)
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+The Ping subsystem seems to be destabilizing the MC and will be put offline.
+## DEBUG: Sun Sep 25 13:50:29 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 93
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 1631
+	 subsystems = /list
+	 init_timeofday = 750203
+	 init_time = 1540
+	 tickdrift = 0
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = 
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:50:39 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 105
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 1732
+	 subsystems = /list
+	 init_timeofday = 750305
+	 init_time = 1641.5
+	 tickdrift = 0
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = 
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:50:49 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 108
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 1833.5
+	 subsystems = /list
+	 init_timeofday = 750406
+	 init_time = 1743
+	 tickdrift = 0.6337042
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = 
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:50:59 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 98
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 1934.5
+	 subsystems = /list
+	 init_timeofday = 750508
+	 init_time = 1844.5
+	 tickdrift = 0
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = 
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:51:10 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 99
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 2036
+	 subsystems = /list
+	 init_timeofday = 750609
+	 init_time = 1945.5
+	 tickdrift = 0
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = 
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:51:20 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 95
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 2137
+	 subsystems = /list
+	 init_timeofday = 750710
+	 init_time = 2047
+	 tickdrift = 1.7298825E-10
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = 
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:51:30 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 95
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 2238.5
+	 subsystems = /list
+	 init_timeofday = 750811
+	 init_time = 2148
+	 tickdrift = 0.99995685
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = 
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:51:40 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 97
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 2339.5
+	 subsystems = /list
+	 init_timeofday = 750913
+	 init_time = 2249.5
+	 tickdrift = 0
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = 
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:51:50 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 96
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 2441
+	 subsystems = /list
+	 init_timeofday = 751014
+	 init_time = 2350.5
+	 tickdrift = 0
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = 
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:52:00 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 93
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 2543
+	 subsystems = /list
+	 init_timeofday = 751115
+	 init_time = 2452
+	 tickdrift = 0
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = 
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:52:10 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 95
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 2643.5
+	 subsystems = /list
+	 init_timeofday = 751217
+	 init_time = 2553.5
+	 tickdrift = 0
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = 
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:52:20 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 94
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 2745.5
+	 subsystems = /list
+	 init_timeofday = 751318
+	 init_time = 2655
+	 tickdrift = 0.81400675
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = 
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:52:31 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 96
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 2846.5
+	 subsystems = /list
+	 init_timeofday = 751420
+	 init_time = 2756.5
+	 tickdrift = 0
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = 
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:52:41 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 97
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 2948
+	 subsystems = /list
+	 init_timeofday = 751521
+	 init_time = 2858
+	 tickdrift = 0.0008486048
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = 
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:52:51 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 93
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 3050.5
+	 subsystems = /list
+	 init_timeofday = 751623
+	 init_time = 2959.5
+	 tickdrift = 0
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = 
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:53:01 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 93
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 3151.5
+	 subsystems = /list
+	 init_timeofday = 751724
+	 init_time = 3061
+	 tickdrift = 0.99999994
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = 
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:53:11 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 108
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 3252
+	 subsystems = /list
+	 init_timeofday = 751826
+	 init_time = 3162.5
+	 tickdrift = 0
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = 
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:53:21 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 93
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 3354
+	 subsystems = /list
+	 init_timeofday = 751926
+	 init_time = 3263
+	 tickdrift = 0
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = 
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:53:31 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 94
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 3454.5
+	 subsystems = /list
+	 init_timeofday = 752028
+	 init_time = 3364.5
+	 tickdrift = 0
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = 
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:53:42 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 92
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 3555.5
+	 subsystems = /list
+	 init_timeofday = 752129
+	 init_time = 3465.5
+	 tickdrift = 0
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = 
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:53:52 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 106
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 3657
+	 subsystems = /list
+	 init_timeofday = 752230
+	 init_time = 3567
+	 tickdrift = 0.2554123
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = 
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:54:02 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 92
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 3758
+	 subsystems = /list
+	 init_timeofday = 752331
+	 init_time = 3668
+	 tickdrift = 0
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = 
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+
+## DEBUG: Sun Sep 25 13:54:12 2022 MC restarted. Reports:
+	 gc_destroyed = 
+	 active_timers = 
+	 status_traits = 
+	 datum_components = 
+	 comp_lookup = 
+	 signal_procs = 
+	 datum_flags = 0
+	 weak_reference = 
+	 cooldowns = 
+	 __auxtools_weakref_id = 
+	 tgui_shared_states = 
+	 processing = 0
+	 iteration = 101
+	 stack_end_detector = /datum/stack_end_detector(/datum/stack_end_detector)
+	 last_run = 3859.5
+	 subsystems = /list
+	 init_timeofday = 752433
+	 init_time = 3769.5
+	 tickdrift = 0
+	 sleep_delta = 1
+	 skip_ticks = 0
+	 make_runtime = 0
+	 initializations_finished_with_no_players_logged_in = 
+	 last_type_processed = 
+	 queue_head = 
+	 queue_tail = 
+	 queue_priority_count = 0
+	 queue_priority_count_bg = 0
+	 map_loading = 0
+	 current_runlevel = 1
+	 sleep_offline_after_initializations = 1
+	 current_initializing_subsystem = 
+

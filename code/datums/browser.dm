@@ -1,3 +1,7 @@
+/proc/get_asset_datum(type)
+	var/datum/asset/loaded_asset = GLOB.asset_datums[type] || new type()
+	return loaded_asset.ensure_ready()
+
 /datum/browser
 	var/mob/user
 	var/title

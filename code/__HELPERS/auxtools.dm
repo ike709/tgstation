@@ -9,4 +9,6 @@
 	else if (fexists("[world.GetConfig("env", "HOME")]/.byond/bin/lib[library].so"))
 		return "[world.GetConfig("env", "HOME")]/.byond/bin/lib[library].so"
 	else
-		CRASH("Could not find lib[library].so")
+		// OD Note: We don't support dreamluau. Windows already doesn't crash, so commenting this out creates parity on linux
+		//CRASH("Could not find lib[library].so")
+		return

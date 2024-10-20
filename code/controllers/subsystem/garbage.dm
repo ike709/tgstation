@@ -290,7 +290,12 @@ SUBSYSTEM_DEF(garbage)
 		LAZYADD(type_info.extra_details, detail)
 
 	var/tick_usage = TICK_USAGE
+#ifdef OPENDREAM
+	spawn(1)
+		del(D)
+#else
 	del(D)
+#endif
 	tick_usage = TICK_USAGE_TO_MS(tick_usage)
 
 	type_info.hard_deletes++
@@ -385,16 +390,13 @@ SUBSYSTEM_DEF(garbage)
 		#ifdef OPENDREAM
 		if (QDEL_HINT_QUEUE) //qdel should queue the object for deletion.
 			SSgarbage.HardDelete(to_delete)
-		if (QDEL_HINT_IWILLGC)
-			SSgarbage.HardDelete(to_delete)
-			return
 		#else
 		if (QDEL_HINT_QUEUE) //qdel should queue the object for deletion.
 			SSgarbage.Queue(to_delete)
+		#endif
 		if (QDEL_HINT_IWILLGC)
 			to_delete.gc_destroyed = world.time
 			return
-		#endif
 		if (QDEL_HINT_LETMELIVE) //qdel should let the object live after calling destory.
 			if(!force)
 				to_delete.gc_destroyed = null //clear the gc variable (important!)

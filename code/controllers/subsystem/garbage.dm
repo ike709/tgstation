@@ -301,6 +301,10 @@ SUBSYSTEM_DEF(garbage)
 		highest_del_ms = tick_usage
 		highest_del_type_string = "[type]"
 
+#ifdef OPENDREAM
+	return
+#endif
+
 	var/time = MS2DS(tick_usage)
 
 	if (time > 0.1 SECONDS)

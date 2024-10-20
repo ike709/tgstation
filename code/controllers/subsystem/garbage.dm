@@ -378,11 +378,19 @@ SUBSYSTEM_DEF(garbage)
 		return
 
 	switch(hint)
+		#ifdef OPENDREAM
+		if (QDEL_HINT_QUEUE) //qdel should queue the object for deletion.
+			SSgarbage.HardDelete(to_delete)
+		if (QDEL_HINT_IWILLGC)
+			SSgarbage.HardDelete(to_delete)
+			return
+		#else
 		if (QDEL_HINT_QUEUE) //qdel should queue the object for deletion.
 			SSgarbage.Queue(to_delete)
 		if (QDEL_HINT_IWILLGC)
 			to_delete.gc_destroyed = world.time
 			return
+		#endif
 		if (QDEL_HINT_LETMELIVE) //qdel should let the object live after calling destory.
 			if(!force)
 				to_delete.gc_destroyed = null //clear the gc variable (important!)
@@ -401,7 +409,11 @@ SUBSYSTEM_DEF(garbage)
 
 			SSgarbage.Queue(to_delete)
 		if (QDEL_HINT_HARDDEL) //qdel should assume this object won't gc, and queue a hard delete
+		#ifdef OPENDREAM
+			SSgarbage.HardDelete(to_delete)
+		#else
 			SSgarbage.Queue(to_delete, GC_QUEUE_HARDDELETE)
+		#endif
 		if (QDEL_HINT_HARDDEL_NOW) //qdel should assume this object won't gc, and hard del it post haste.
 			SSgarbage.HardDelete(to_delete)
 		#ifdef REFERENCE_TRACKING

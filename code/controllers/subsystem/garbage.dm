@@ -289,7 +289,12 @@ SUBSYSTEM_DEF(garbage)
 		LAZYADD(type_info.extra_details, detail)
 
 	var/tick_usage = TICK_USAGE
+#ifdef OPENDREAM
+	spawn(1)
+		del(D)
+#else
 	del(D)
+#endif
 	tick_usage = TICK_USAGE_TO_MS(tick_usage)
 
 	type_info.hard_deletes++
@@ -299,6 +304,10 @@ SUBSYSTEM_DEF(garbage)
 	if (tick_usage > highest_del_ms)
 		highest_del_ms = tick_usage
 		highest_del_type_string = "[type]"
+
+#ifdef OPENDREAM
+	return
+#endif
 
 	var/time = MS2DS(tick_usage)
 
@@ -385,8 +394,13 @@ SUBSYSTEM_DEF(garbage)
 		return
 
 	switch(hint)
+		#ifdef OPENDREAM
+		if (QDEL_HINT_QUEUE) //qdel should queue the object for deletion.
+			SSgarbage.HardDelete(to_delete)
+		#else
 		if (QDEL_HINT_QUEUE) //qdel should queue the object for deletion.
 			SSgarbage.Queue(to_delete)
+		#endif
 		if (QDEL_HINT_IWILLGC)
 			to_delete.gc_destroyed = world.time
 			return
@@ -408,7 +422,11 @@ SUBSYSTEM_DEF(garbage)
 
 			SSgarbage.Queue(to_delete)
 		if (QDEL_HINT_HARDDEL) //qdel should assume this object won't gc, and queue a hard delete
+		#ifdef OPENDREAM
+			SSgarbage.HardDelete(to_delete)
+		#else
 			SSgarbage.Queue(to_delete, GC_QUEUE_HARDDELETE)
+		#endif
 		if (QDEL_HINT_HARDDEL_NOW) //qdel should assume this object won't gc, and hard del it post haste.
 			SSgarbage.HardDelete(to_delete)
 		#ifdef REFERENCE_TRACKING

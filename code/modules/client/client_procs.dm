@@ -247,6 +247,21 @@ GLOBAL_LIST_INIT(blacklisted_builds, list(
 	//CONNECT//
 	///////////
 
+/client/var/opendream_alerted = FALSE
+
+/client/proc/opendream_alert()
+	set waitfor = FALSE
+	if(opendream_alerted)
+		return
+	opendream_alerted = TRUE
+	var/message = "OpenDream is a work in progress. This means:\n"
+	message += "- Things will be broken.\n"
+	message += "- Things are not implemented yet.\n"
+	message += "- The game may crash or become unplayable.\n"
+	message += "- We are NOT affiliated with the official /tg/station community.\n\n"
+	message += "Want to make OpenDream a reality? Join our Discord and contribute today!"
+	alert(src, message, "OpenDream WIP Notice", "I understand")
+
 /client/New(TopicData)
 	var/tdata = TopicData //save this for later use
 	TopicData = null //Prevent calls to client.Topic from connect
@@ -569,6 +584,7 @@ GLOBAL_LIST_INIT(blacklisted_builds, list(
 	Master.UpdateTickRate()
 	SEND_GLOBAL_SIGNAL(COMSIG_GLOB_CLIENT_CONNECT, src)
 	fully_created = TRUE
+	opendream_alert()
 
 //////////////
 //DISCONNECT//
